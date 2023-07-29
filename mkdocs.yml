@@ -1,0 +1,17 @@
+site_name: "Datarails Examples Documentation"
+
+plugins:
+  - mkdocstrings:
+      handlers:
+        python:
+          show_source: false
+  - search:
+      lang: en
+
+theme:
+  name: "material"
+  features:
+    - content.code.copy
+
+nav:
+  - Simple CSV Processing: simple_csv_data.md
